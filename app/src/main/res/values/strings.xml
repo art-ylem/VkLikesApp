@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Лайки</string>
+
+    <integer name="com_vk_sdk_AppId">6498697</integer>
+    <string name="like_1">Быстрые лайки ВК</string>
+    <string name="like_2">Подсчет лайков</string>
+
+    <string name="title_alert_how_it_works">Как это работает?</string>
+    <string name="how_it_works">Лайки ставятся на фото, которое Вы выбрали. Чтобы лайки пришли, нужно подождать пока другие пользователи Вас лайкнут. Статус можно проверять в приложении. \n Тому, кто поставит приложению 5 звезд лайки придут быстрее :)</string>
+
+    <string name="title_alert_join_vk_group">Бесплатные друзья</string>
+    <string name="text_alert_join_vk_group">Хочешь попробовать бесплатное приложение для добавления друзей и подписчиков?</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="ok">Ок</string>
+
+
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-8388322489119583/9172203668</string>
+    <!--<string name="video_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>-->
+    <string name="video_ad_unit_id">cca-app-pub-8388322489119583/8959356769</string>
+
+
+
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-8388322489119583/9837733283</string>-->
+    <!--<string name="video_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>-->
+    <!--<string name="video_ad_unit_id">ca-app-pub-8388322489119583/8959356769</string>-->
+
+    <string name="score">Баллы:</string>
+    <string name="get_like">Получить лайки (за 1 балл)</string>
+    <string name="like_condition">Чтобы заказ оформился, нужно поставить лайки 3 пользователям</string>
+    <string name="get_like_2">Поставить лайк</string>
+    <string name="title_activity_users">Оцените других :)</string>
+    <string name="select_photo">Выбор фото для лайков</string>
+    <string name="ready">Готово</string>
+
+</resources>

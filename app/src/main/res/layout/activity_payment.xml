@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppThemes.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppThemes.PopupOverlay" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Покупка лайков"
+                android:textSize="22dp"
+                android:textColor="@color/vk_white"
+                android:fontFamily="@font/proxima_nova_bold"
+
+                />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.likes.vk.vklikes.likes.PayActivity">
+
+        <Button
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/button1"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/background"
+            android:textColor="@color/vk_white"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="30 лайков за 30 рублей"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            app:layout_constraintTop_toBottomOf="@id/button1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/button2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/background"
+            android:textColor="@color/vk_white"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="100 лайков за 89 рублей"/>
+
+        <Button
+            app:layout_constraintTop_toBottomOf="@id/button2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/button3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/background"
+            android:textColor="@color/vk_white"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="Отключить всю рекламу за 60 рублей"/>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>

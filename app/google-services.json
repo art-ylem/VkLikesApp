@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "474568247315",
+    "firebase_url": "https://vk-likes-5c7b7.firebaseio.com",
+    "project_id": "vk-likes-5c7b7",
+    "storage_bucket": "vk-likes-5c7b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474568247315:android:5ec0e002052261ddb8d7e6",
+        "android_client_info": {
+          "package_name": "com.vklikesapp.nat.vklikesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474568247315-38clmgjfnuge44mmqbis253qq15tj9a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vklikesapp.nat.vklikesapp",
+            "certificate_hash": "ffa18dfb7e71125d6f37c2dea218713f07bff6c7"
+          }
+        },
+        {
+          "client_id": "474568247315-7vs3v2afb6tof0ouhijcc7ts7h7394fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRjIoGYBGOLMrf3r5DhL8OiaEqjglFDbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474568247315-7vs3v2afb6tof0ouhijcc7ts7h7394fu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

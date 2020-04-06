@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ava"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ava"
+        android:layout_toLeftOf="@+id/medal"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_87"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/medal"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:src="@drawable/first_medal"
+        android:layout_toLeftOf="@+id/number"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:text="2"
+        android:textColor="@color/green"
+        android:textSize="25sp"/>
+
+
+</RelativeLayout>

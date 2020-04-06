@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VkLikesApp.iml" filepath="$PROJECT_DIR$/VkLikesApp.iml" group="VkLikesApp" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="VkLikesApp/app" />
+      <module fileurl="file://$PROJECT_DIR$/vklibrary/vklibrary.iml" filepath="$PROJECT_DIR$/vklibrary/vklibrary.iml" group="VkLikesApp/vklibrary" />
+      <module fileurl="file://$PROJECT_DIR$/vksdk_library/vksdk_library.iml" filepath="$PROJECT_DIR$/vksdk_library/vksdk_library.iml" group="VkLikesApp/vksdk_library" />
+    </modules>
+  </component>
+</project>
